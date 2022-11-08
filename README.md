@@ -9,6 +9,11 @@ Simple database with simple associations for demonstration purposes
 To run
 
 ```ruby
+bundle install
+
+```
+
+```ruby
 rails db:create db:migrate
 
 ```
