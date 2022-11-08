@@ -1,8 +1,8 @@
 # Authors_and_Books_Demo
 Simple database with simple associations for demonstration purposes
 
-Ruby version: 2.7.6
-Rails version: 5.2.7
+<p>Ruby version: 2.7.6</p>
+<p>Rails version: 5.2.7</p>
 
 To run
 
