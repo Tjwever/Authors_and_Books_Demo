@@ -1,0 +1,14 @@
+<div class="row no-gutters wow slideInUp" data-wow-duration="1s">
+  <div class="col-md-12 home-form">
+    <%= select_tag "author", options_from_collection_for_select(Author.all, "id", "name"), prompt: "Author" %>
+    <%= select_tag "book", options_from_collection_for_select(Book.all, "id", "name"), prompt: "Book" %>
+    <%#<%= submit_tag("Search", class: "btn btn-primary") %>
+  </div>
+</div>
+
+<%# if you wanted a search funtion 
+<div class="row" id="book_listing">
+  <%= render partial: "book_list", locals: {books: @books}
+</div> %>
+
+<%# :include_blank => 'None'  %>
